@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Thank You</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f0f0f0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+    }
+    .thankyou-box {
+      background: white;
+      padding: 40px;
+      border-radius: 12px;
+      box-shadow: 0 0 20px rgba(0,0,0,0.1);
+      text-align: center;
+    }
+    h1 {
+      color: #2E7D32;
+    }
+  </style>
+</head>
+<body>
+  <div class="thankyou-box">
+    <h1 id="thankyou-text">Thank you!</h1>
+    <p>Your appointment has been booked successfully.</p>
+    <a href="index.html">Back to Home</a>
+  </div>
+
+  <script>
+    const urlParams = new URLSearchParams(window.location.search);
+    const name = urlParams.get('name');
+    if (name) {
+      document.getElementById('thankyou-text').textContent = `Thank You, ${decodeURIComponent(name)}!`;
+    }
+  </script>
+</body>
+</html>

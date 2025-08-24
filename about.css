@@ -1,0 +1,89 @@
+body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #f9f9f9;
+    }
+
+    .services-title {
+      text-align: center;
+      margin-top: 50px;
+      font-size: 2rem;
+      color: #00c853;
+    }
+
+    /* Center container with relative positioning */
+    .lotus-container {
+      position: relative;
+      width: 200px;       /* adjust width to fit your fan */
+      height: 220px;
+      margin: 80px auto;  /* centers the container horizontally */
+      perspective: 1000px;
+    }
+
+    /* Petal styles */
+    .petal {
+      position: absolute;
+      width: 120px;
+      height: 180px;
+      border-radius: 16px;
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+      background-size: cover;
+      background-position: center;
+      top: 50%;
+      left: 50%;
+      transform-origin: bottom center;
+      cursor: pointer;
+      transition: transform 0.5s ease, z-index 0.5s ease;
+    }
+
+    /* Fan arrangement centered around middle petal */
+    .petal:nth-child(1) {
+      transform: translate(-120%, -50%) rotate(-20deg);
+      z-index: 1;
+    }
+    .petal:nth-child(2) {
+      transform: translate(-60%, -50%) rotate(-10deg);
+      z-index: 2;
+    }
+    .petal:nth-child(3) {
+      transform: translate(-50%, -50%) rotate(0deg);
+      z-index: 3;
+    }
+    .petal:nth-child(4) {
+      transform: translate(-40%, -50%) rotate(10deg);
+      z-index: 2;
+    }
+    .petal:nth-child(5) {
+      transform: translate(-10%, -50%) rotate(20deg);
+      z-index: 1;
+    }
+
+    /* Hover effect: petals spread upwards */
+   .lotus-container:hover .petal:nth-child(1) {
+  transform: translate(-120%, -90%) rotate(-20deg);
+  z-index: 5;
+}
+.lotus-container:hover .petal:nth-child(2) {
+  transform: translate(-60%, -90%) rotate(-10deg);
+  z-index: 4;
+}
+.lotus-container:hover .petal:nth-child(3) {
+  transform: translate(-50%, -90%) rotate(0deg);
+  z-index: 3;
+}
+.lotus-container:hover .petal:nth-child(4) {
+  transform: translate(-40%, -90%) rotate(10deg);
+  z-index: 2;
+}
+.lotus-container:hover .petal:nth-child(5) {
+
+  .sentence {
+    display: inline-block;
+    padding: 6px 12px;
+    border-radius: 8px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  .sentence:hover {
+    background-color: #00796b;
+    color: white;
+  }

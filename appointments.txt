@@ -1,0 +1,126 @@
+Disha Pure | DD/MM/YYYY hh:mm | indore | friend | doctor | pune | residential | 1234567890 | offline | 2025-06-20 | 15:31:27 | pending | Not Assigned|status:acceptDisha 2 | yguhj | khjnmb | ijk | iojk | iojkm | commercial | 4567898765456 | offline | 2025-06-20 | 17:08:06 | pending
+Dheeraj Pure | iuliu | lo | ouo | ouoi | oiu | commercial | 123445678889 | online | 2025-06-20 | 17:15:27 | pending | 
+uma dongre |  DD/MM/YYYY hh:mm | khargone | my daughter | teacher | pune | commercial | 0000000000 | offline | 2025-06-22 | 15:38:57 | pending | 
+Dheeraj Sarkar | jlkj | lkjlkj | lkjl | lkjlkj | ljlk | residential | 1876980980 | offline | i have home buying issues pls help | 2025-06-22 | 16:13:17 | pending | 
+Testing | 14/07/2023 16:42 | Nagpur, Maharashtra | Aunt Rekha (previous client) |  Interior Designer | Dhanori, Pune | residential | 3852197640 | offline |  Financial instability and recurring home disputes
+"We’ve been facing continuous financial losses and unexplained tensions at home. I feel something in the house energy isn’t right." | 2025-06-23 | 12:24:59 | pending | 
+ Ritesh Malhotr | 08/04/1987 06:15 | Ludhiana, Punjab |  Neha Batra |  Civil Engineer | B-52, Sector 56, Noida, Uttar Pradesh – 201301 | commercial |  +91 98765 43210 | online | I've been experiencing frequent financial losses and unexplained health issues in the family. I feel like something is off in the house's energy flow. | 2025-06-24 | 14:27:09 | pending | 
+axy | 09/22/2008 24:99 | pune | frendin | Doctor | pune | residential | 1234567890 | offline | i amm felling sad and i want to get my problems solve pleae help | 2025-07-04 | 10:12:45 | pending | 
+Test Jan Doe | DD/MM/YYYY hh:mm | Khandala | friend | interior designer | Indore | commercial | 56987654321 | offline | Bhai meko kuch samaj nahi ata exam me | 2025-07-18 | 13:36:48 | pending | 
+Om Ingole | 28/10/2005 | pune | disha | job | Delhi | commercial | 8830450210 | offline | office vastu | 2025-07-20 | 11:07:04 | pending | 
+ohoi | ljlj | lkjl | lkjlkj | ljlkj | nmlkjih | commercial | h89098 | online | ghuijklbhj | 2025-08-03 | 12:31:48 | pending | 
+ohoi | ljlj | lkjl | lkjlkj | ljlkj | nmlkjih | commercial | h89098 | online | ghuijklbhj | 2025-08-03 | 12:32:16 | pending | 
+ohoi | ljlj | lkjl | lkjlkj | ljlkj | nmlkjih | commercial | h89098 | online | ghuijklbhj | 2025-08-03 | 12:32:35 | pending | 
+ohoi | ljlj | lkjl | lkjlkj | ljlkj | nmlkjih | commercial | h89098 | online | ghuijklbhj | 2025-08-03 | 12:33:17 | pending | 
+klmlk | lklk | lklk | kljkl | lklkj | klkj | residential | 890-09 | online | klknk | 2025-08-03 | 12:33:38 | pending | 
+klmlk | lklk | lklk | kljkl | lklkj | klkj | residential | 890-09 | online | klknk | 2025-08-03 | 12:35:04 | pending | 
+jlkj | ljlkj | kjlkj | kljlk | ljlk | jlknjk | commercial | 7890-098 | online | jkjhk | 2025-08-03 | 12:35:33 | pending | 
+jhj | ljlk | lkjlkj | lkjlkj | kljl | lkjlkj | commercial | 09809890 | online | lkjlkj | 2025-08-03 | 12:42:37 | pending | 
+dd | jlj | lkjlk | lkjklj | lkjl | khkj | commercial | bvjkl | online | kjhljh | 2025-08-03 | 13:01:36 | pending | 
+dd | jlj | lkjlk | lkjklj | lkjl | khkj | commercial | bvjkl | online | kjhljh | 2025-08-03 | 13:05:20 | pending | 
+dd | jlj | lkjlk | lkjklj | lkjl | khkj | commercial | bvjkl | online | kjhljh | 2025-08-03 | 13:08:49 | pending | 
+dd | jlj | lkjlk | lkjklj | lkjl | khkj | commercial | bvjkl | online | kjhljh | 2025-08-03 | 13:12:11 | pending | 
+dd | jlj | lkjlk | lkjklj | lkjl | khkj | commercial | bvjkl | online | kjhljh | 2025-08-03 | 13:13:32 | pending | 
+kj | hkjhj | jkhkj | kjhkjh | jhkj | jkhkj | commercial | 123 | online | kjhkjk | 2025-08-03 | 13:24:23 | pending | 
+bhai jaan | ljlk | lkjlkj | ljlkj | lkjlk | ljlkj | commercial | 123 | offline | lkjlk | 2025-08-03 | 13:27:20 | pending | 
+Saphire | jlk | jlkj | lkjl | lj | ,jkl | residential | lkjkl | online | llkj | 2025-08-03 | 13:30:22 | pending | 
+lvoe me no  | lj | kljl | lkjlk | lkjklj | lkjlk | commercial | ljl | online | ljlkj | 2025-08-03 | 13:31:18 | pending | 
+adf | lkjkl | lkjlk | jklj | lkj | lkjkl | residential | lkjkl | online | lk | 2025-08-03 | 13:56:33 | pending | 
+klk | jlkjlkj | kjlkj | lkjlk | jlkj | kljlkj | commercial | mlklkj | online | lj | 2025-08-03 | 14:04:43 | pending | 
+klk | jlkjlkj | kjlkj | lkjlk | jlkj | kljlkj | commercial | mlklkj | online | lj | 2025-08-03 | 14:04:43 | pending | 
+klk | jlkjlkj | kjlkj | lkjlk | jlkj | kljlkj | commercial | mlklkj | online | lj | 2025-08-03 | 14:04:43 | pending | 
+klk | jlkjlkj | kjlkj | lkjlk | jlkj | kljlkj | commercial | mlklkj | online | lj | 2025-08-03 | 14:04:43 | pending | 
+Pagal Aurat | kjhkj | hkjhkjh | kjhkj | hkjhkh | jljlkj | residential | 89798798 | online | k | 2025-08-03 | 14:06:52 | pending | 
+Pagal Aurat | kjhkj | hkjhkjh | kjhkj | hkjhkh | jljlkj | residential | 89798798 | online | k | 2025-08-03 | 14:06:52 | pending | 
+Pagal Aurat | kjhkj | hkjhkjh | kjhkj | hkjhkh | jljlkj | residential | 89798798 | online | k | 2025-08-03 | 14:06:52 | pending | 
+Pagal Aurat | kjhkj | hkjhkjh | kjhkj | hkjhkh | jljlkj | residential | 89798798 | online | k | 2025-08-03 | 14:06:52 | pending | 
+Disha Pure | lkjl | lkjlj | ljlj | lkjkl | lkjlkj | commercial | 7897 | online | jlkj | 2025-08-03 | 14:07:27 | pending | 
+Disha Pure | lkjl | lkjlj | ljlj | lkjkl | lkjlkj | commercial | 7897 | online | jlkj | 2025-08-03 | 14:07:27 | pending | 
+Disha Pure | lkjl | lkjlj | ljlj | lkjkl | lkjlkj | commercial | 7897 | online | jlkj | 2025-08-03 | 14:07:27 | pending | 
+Disha Pure | lkjl | lkjlj | ljlj | lkjkl | lkjlkj | commercial | 7897 | online | jlkj | 2025-08-03 | 14:07:27 | pending | 
+ponga | kljlk | lkjlj | lkjl | lkjlk | klm | commercial | 1587 | online | kjlk | 2025-08-03 | 14:10:08 | pending | 
+ponga | kljlk | lkjlj | lkjl | lkjlk | klm | commercial | 1587 | online | kjlk | 2025-08-03 | 14:10:08 | pending | 
+chiku mer | jlkj | lkjlk | jlkjl | kjlkjl | ljj | commercial | 12 | online | lkjl | 2025-08-03 | 14:13:32 | pending | 
+chiku mer | jlkj | lkjlk | jlkjl | kjlkjl | ljj | commercial | 12 | online | lkjl | 2025-08-03 | 14:13:32 | pending | 
+king | king | king | king | king | king | residential | king | online | king | 2025-08-05 | 08:29:27 | pending | 
+king | king | king | king | king | king | residential | king | online | king | 2025-08-05 | 08:29:27 | pending | 
+king | king | king | king | king | king | residential | king | online | king | 2025-08-05 | 08:35:23 | pending | 
+Aanya Sharma | 14/06/1991 05:45 |  Jaipur, Rajasthan | Dr. Manish Vaidya |  Software Engineer |  Prestige Hillside Residency, Bannerghatta Road, Bengaluru | residential |  +91 9812345678 | online | Experiencing recurring health and financial issues after moving into a new home. Suspect Vastu-related energy imbalance.  We are constantly falling sick and facing unusual expenses. I feel there’s some vastu dosh in the new house, particularly in the south-west corner. | 2025-08-05 | 12:39:05 | pending | 
+Test | test DD/MM/YYYY hh:mm | jaipur | freidn | enginner | london | commercial | test123 | offline | i have np | 2025-08-06 | 09:14:28 | pending | 
+Test 2 | Test 2 | Test 2 | Test 2 | Test 2 | Test 2 | commercial | Test 2 | offline | Test 2 | 2025-08-06 | 09:25:35 | pending | 
+Rahul dongre | Rahul dongre | Rahul dongre | Rahul dongre | Rahul dongre | Rahul dongre | commercial | Rahul dongre | online | Rahul dongre | 2025-08-06 | 09:48:47 | pending | 
+Aghori BABA JI | Aghori BABA JI | Aghori BABA JI | Aghori BABA JI | Aghori BABA JI | Aghori BABA JI | residential | Aghori BABA JI | online | Aghori BABA JI | 2025-08-06 | 09:59:45 | pending | 
+Kumar Sany | Kumar Sany | Kumar Sany | Kumar Sany | Kumar Sany | Kumar Sany | commercial | Kumar Sany | online | Kumar Sany | 2025-08-06 | 13:20:54 | pending | 
+uma dongre | uma dongre | uma dongre | uma dongre | uma dongre | uma dongre | commercial | uma dongre | online | uma dongre | 2025-08-06 | 13:35:38 | pending | 
+Jane Doe | 25 December 1963 | UK | freind | dr  | bribingum | commercial | 1234567890 | online | jljlkj | 2025-08-07 | 09:14:36 | pending | 
+doctor | doctor | doctor | doctor | doctor | doctor | residential | doctor | online | doctor | 2025-08-07 | 09:35:00 | pending | 
+Testing | dflsj | lkjklj | lj | lkj | jklj | commercial | kjlk | online | lj | 2025-08-08 | 15:39:40 | pending | 
+khan | khan | khan | khan | khan | khan | commercial | khan | online | khan | 2025-08-08 | 15:50:35 | pending | 
+fu****k | fu****k | fu****k | fu****k | fu****k | fu****k | residential | fu****k | online | fu****k | 2025-08-08 | 15:52:30 | pending | 
+Rahul Trivedi | JFK | JFK | JFK | JFK | JFK | commercial | JFK | online | JFK | 2025-08-10 | 12:04:13 | pending | 
+Om | DD/MM/YYYY hh:mm | pune | freind | businessman | pune | residential | 1234567890 | offline | i am feeling very lucky | 2025-08-15 | 17:22:22 | pending | 
+Abra ca Dabra | Abra ca Dabra | Abra ca Dabra | Abra ca Dabra | Abra ca Dabra | Abra ca Dabra | commercial | 123456788 | online | Abra ca Dabra | 2025-08-23 | 07:40:55 | pending | 
+dheeraj | 01/01/1001 11:11 | pune |  | job | wakad | residential | 1234567890 | online | no problem | 2025-08-23 | 13:14:12 | pending | 
+Sahil Kalaskar  | 1/06/2005 | Pune | om ingole | Software engineer | pune | residential | 9876543210 | offline | many problems | 2025-08-23 | 14:16:15 | pending | 
+Testing1 | Test | Test | Test | Test | Test | commercial | 1234567890 | offline | Test | 2025-08-23 | 14:33:40 | pending | 
+disha pure | DD/MM/YYYY hh:mm | indore | my friend | student | pune | commercial | 1234567890 | online | i just want to grow | 2025-08-23 | 14:46:23 | pending | 
+Justin | Justin | Justin | Justin | Justin | Justin | commercial | 1876980980 | online | Justin | 2025-08-23 | 19:18:14 | pending | 
+Justin Bieber | Justin Bieber | Justin Bieber | Justin Bieber | Justin Bieber | Justin Bieber | commercial | 1234567890 | online | Justin Bieber | 2025-08-23 | 19:19:22 | pending | 
+Kammal | Kammal | Kammal | Kammal | Kammal | Kammal | commercial | Kammal | online | Kammal | 2025-08-23 | 19:28:32 | pending | 
+Bad Boy | Bad Boy | Bad Boy | Bad Boy | Bad Boy | Bad Boy | residential | Bad Boy | online | Bad Boy | 2025-08-23 | 19:32:11 | pending | 
+guru | guru | guru | guru | guru | guru | commercial | guru | online | guru | 2025-08-23 | 20:08:30 | pending | 
+Kumar Sanu | Kumar Sanu | Kumar Sanu | Kumar Sanu | Kumar Sanu | Kumar Sanu | commercial | 1234567890 | online | Kumar Sanu | 2025-08-23 | 20:21:37 | pending | 
+Akash | Akash | Akash | Akash | Akash | Akash | commercial | Akash | online | Akash | 2025-08-23 | 20:28:15 | pending | 
+shiva | 99/44/55 90:99 | earth | everyone | god | lkjklj | commercial | ljlk | online | jlkj | 2025-08-24 | 07:57:07 | pending | 
+shiva | shiva | shiva | shiva | shiva | shiva | commercial | 1234567890 | online | shiva | 2025-08-24 | 08:09:14 | pending | 
+Ashly | Ashly | Ashly | Ashly | Ashly | Ashly | commercial | Ashly | online | Ashly | 2025-08-24 | 08:29:41 | pending | 
+Shiva | Shiva | Shiva | Shiva | Shiva | Shiva | residential | 1234567890 | online | Shiva | 2025-08-24 | 09:47:15 | pending | 
+Disha Pure | Disha Pure | Disha Pure | Disha Pure | Disha Pure | Disha Pure | commercial | Disha Pure | online | Disha Pure | 2025-08-24 | 09:48:04 | pending | 
+shiva | shiva | shiva | shiva | shiva | shiva | commercial | shiva | online | shiva | 2025-08-24 | 09:52:40 | pending | 
+Doctor G | Doctor G | Doctor G | Doctor G | Doctor G | Doctor G | commercial | 7815458076 | online | Doctor G | 2025-08-24 | 10:03:49 | pending | 
+Doctor G | Doctor G | Doctor G | Doctor G | Doctor G | Doctor G | residential | bvjkl | online | Doctor G | 2025-08-24 | 10:06:23 | pending | 
+Doc | Doc | Doc | Doc | Doc | Doc | commercial | Doc | online | Doc | 2025-08-24 | 10:17:39 | pending | 
+Anshi Dogre | hklj | lkj | lkj | lkjl | lkjlkj | commercial | lkjkl | online | j | 2025-08-24 | 10:41:44 | pending | 
+Anshi Dogre | jhkj | lkjlkj | kjlkj | lkj | lkjlk | commercial | pooi | online | klkj | 2025-08-24 | 10:42:20 | pending | 
+Gobar | kjhkj | kjhkjh | khkjh | kjhkj | kjhjk | commercial | oiu8 | online | khkj | 2025-08-24 | 10:43:39 | pending | 
+Anshi Dongre | knl | klj | ljlk | lklk | lkjlk | commercial | ljlkj | online | lkjlkj | 2025-08-24 | 10:44:37 | pending | 
+Anshi Dongre | lkjkl | lkjl | lkj | lkl | lkjl | commercial | lkjl | online | lkjlkj | 2025-08-24 | 10:45:14 | pending | 
+Shiva Please Help | kjhjk | klhk | khkj | jkjh | mkj | commercial | oiuiou89 | online | ljk | 2025-08-24 | 11:02:42 | pending | 
+Shiva Please Help | uhkjh | khkh | khkjh | kjhui | khk | commercial | 87987 | online | jhkjh | 2025-08-24 | 11:03:24 | pending | 
+Doctor G | jhj | kjhkj | kjh | kh | lhk | commercial | khkj | online | kkjhk | 2025-08-24 | 11:04:12 | pending | 
+Doctor G | 869 | 898 | 7987 | 97987 | kkjh | commercial | 0000000000 | online | klhjk | 2025-08-24 | 11:05:07 | pending | 
+DDLG | oiuio | oi | oi | uoiu | iuio | commercial | 9u9o | online | oiih | 2025-08-24 | 11:13:52 | pending | 
+DDLG | dd/mm/yy | indore | jkjh | hkhjk | jkjh | residential | kjhiuy8 | online | lkjkjh | 2025-08-24 | 11:15:18 | pending | 
+Doctor G | lkj | lkjlk | jlkjlk | jlkjl | lklkj | residential | ljl | online | jlkj | 2025-08-24 | 14:55:16 | pending | 
+SRK | srk | srk | srk | srk | srk | commercial | srk | online | srk | 2025-08-24 | 15:10:17 | pending | 
+SRK | srk | srk | srk | srk | srk | commercial | srk | online | srk | 2025-08-24 | 15:11:09 | pending | 
+Mobile Phone | mb | mb | m | b | ,n | commercial | mh | online | mn | 2025-08-24 | 15:28:18 | pending | 
+BROMAN | bj | lkjl | jklj | lj | ljl | commercial | lkj | online | l | 2025-08-24 | 15:34:20 | pending | 
+college | college | college | college | college | college | commercial | 1234567890 | online | college | 2025-08-24 | 15:40:03 | pending | 
+Kamal Hassan | kh | kh | kh | kh | kh | residential | kh | online | kh | 2025-08-24 | 15:44:02 | pending | 
+HOPE | hp | hp | hp | hp | p | commercial | j | online | h | 2025-08-24 | 15:52:57 | pending | 
+dfsd | lhkjh | jh | khjk | kjh | kljlk | commercial | jkjh | online | kjk | 2025-08-24 | 15:55:12 | pending | 
+HI | lk | ljlk | jlkj | lkj | lkj | commercial | kljk | online | lkj | 2025-08-24 | 16:02:21 | pending | 
+SHIV | kjh | hkjh | jhkjh | jkh | kjhkjh | residential | kjhjk | online | kjhkj | 2025-08-24 | 16:13:41 | pending | 
+slkj | lkjlkj | lkj | lkj | ljl | jl | commercial | klj | online | jlk | 2025-08-24 | 16:15:40 | pending | 
+Disha Pure Testing | lkjkjl | kjhkj | hkh | khk | i | commercial | oij | online | hk | 2025-08-24 | 16:18:51 | pending | 
+Email | k | ljl | jlk | jlk | kjh | residential | kl | online | jlkj | 2025-08-24 | 16:21:40 | pending | 
+disa pure | j | lkjlk | jlkj | lkj | lkj | commercial | jl | online | lj | 2025-08-24 | 16:24:45 | pending | 
+om | j | llk | jlj | lj | lk | commercial | lkj | online | lj | 2025-08-24 | 16:26:58 | pending | 
+adae | kljlk | kl | klkjl | jlj | klkj | commercial | jn | online | lkj | 2025-08-24 | 16:37:01 | pending | 
+Bol Bam | kl | ljl | kjlk | jlkj | lk | commercial | l | online | lk | 2025-08-24 | 16:44:24 | pending | 
+Jany | j | j | lkjlk | jl | jj | commercial | 1 | online | jl | 2025-08-24 | 16:46:14 | pending | 
+Deva Deva | lkj | ljlj | jklj | ljlj | lkjlkj | commercial | lkjl | online | lkjlk | 2025-08-24 | 16:51:05 | pending | 
+Deva Deva | hjl | jlkjlj | lkjlkj | ljlkjlk | lkjlkj | commercial | ljlk | online | ljj | 2025-08-24 | 16:52:14 | pending | 
+DEVA | lk | l | jlkj | lkj | lj | commercial | lj | online | lj | 2025-08-24 | 17:07:58 | pending | 
+DEva | lkjlk | jl | jlj | lkj | lkj | residential | ljlk | online | lj | 2025-08-24 | 17:09:37 | pending | 
+Gadhe Prasad | lkjklj | lkj | lkjlk | jl | jlkj | residential | gd | online | ljlk | 2025-08-24 | 17:10:41 | pending | 
+OMG | lj | llk | jl | jlj | jlkj | commercial | lj | online | lk | 2025-08-24 | 17:22:25 | pending | 
+RAM | lkjl | jl | jlj | lj | kj | commercial | lj | online | k | 2025-08-24 | 17:28:09 | pending | 
+ram | klj | lkj | lj | lj | jl | commercial | k | online | ljl | 2025-08-24 | 17:31:37 | pending | 
+Ram | lkjkl | lk | jkjh | kjh | kjh | commercial | khkj | online | kh | 2025-08-24 | 17:34:38 | pending | 
+Dheeraj Pure | 13/22/22 90:99 | indore | disha pure | enginner | pune | commercial | 7815353490 | online | i am very nice | 2025-08-24 | 17:37:27 | pending | 
+emi bhai  | lkjl | jl | jlj | lj | lj | commercial | lkjl | online | lj | 2025-08-24 | 17:38:30 | pending | 
+Emy Bhai | lkjlk | jl | j | lj | lkjl | commercial | j | online | lj | 2025-08-24 | 17:46:31 | pending | 
+Emy Bhai | jj | j | lkj | lj | jlkj | commercial | ljl | online | ljl | 2025-08-24 | 17:50:15 | pending | 
+Bhai Log | kjlk | jlkj | lkj | lkjl | ljlkj | commercial | lj | online | jlj | 2025-08-24 | 17:51:04 | pending | 

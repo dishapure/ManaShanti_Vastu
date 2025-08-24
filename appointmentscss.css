@@ -1,0 +1,316 @@
+/* === Global Reset === */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+body {
+  display: flex;
+  background: #f4f4f9;
+  min-height: 100vh;
+}
+
+/* === Top Navigation Bar === */
+.topbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 70px;
+  background-color: #4B2E83;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 30px;
+  z-index: 1000;
+}
+
+.topbar .brand {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.topbar nav {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+}
+
+.topbar nav a {
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.topbar nav a:hover {
+  text-decoration: underline;
+}
+
+/* === Sidebar === */
+.sidebar {
+  width: 260px;
+  background-color: #4B2E83;
+  color: white;
+  padding: 30px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: fixed;
+  top: 70px;
+  bottom: 0;
+  left: 0;
+}
+
+.sidebar img {
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  margin-bottom: 15px;
+  border: 3px solid white;
+}
+
+.sidebar h3 {
+  margin-bottom: 25px;
+  text-align: center;
+}
+
+.sidebar a {
+  text-decoration: none;
+  color: white;
+  background-color: #6a1b9a;
+  padding: 10px 15px;
+  margin: 8px 0;
+  border-radius: 8px;
+  width: 100%;
+  text-align: center;
+  transition: background 0.3s;
+}
+
+.sidebar a:hover {
+  background-color: #5e1787;
+}
+
+/* === Main Content === */
+.main {
+  margin-left: 260px;
+  margin-top: 70px;
+  padding: 30px 40px;
+  flex: 1;
+  width: calc(100% - 260px);
+}
+
+h1 {
+  color: #4a148c;
+  margin-bottom: 20px;
+}
+
+/* === Appointment Cards === */
+.list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+  margin-top: 30px;
+}
+
+.card {
+  width: 90%;
+  max-width: 600px;
+  background: white;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  text-decoration: none;
+  color: #333;
+  transition: 0.3s ease;
+  position: relative;
+}
+
+.card:hover {
+  background-color: #e8f0fe;
+  transform: scale(1.02);
+}
+
+.card img.avatar {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  border: 2px solid #6a1b9a;
+}
+
+.card h3 {
+  margin: 0;
+  font-size: 22px;
+  color: #6a1b9a;
+}
+
+.card p {
+  margin: 5px 0 0;
+  font-size: 14px;
+  color: #666;
+}
+
+.card input[type="checkbox"] {
+  margin-left: auto;
+  transform: scale(1.3);
+}
+
+.solved-badge {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  background: #43a047;
+  color: white;
+  padding: 4px 10px;
+  border-radius: 20px;
+  font-size: 12px;
+  font-weight: bold;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+}
+
+/* === Table === */
+table {
+  border-collapse: collapse;
+  width: 100%;
+  background-color: #fff;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+th, td {
+  padding: 12px 15px;
+  border: 1px solid #ddd;
+  text-align: left;
+}
+
+th {
+  background-color: #6a1b9a;
+  color: white;
+}
+
+/* === Buttons === */
+.btn {
+  padding: 6px 14px;
+  border: none;
+  border-radius: 4px;
+  color: #fff;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.accept { background-color: #43a047; }
+.accept:hover { background-color: #388e3c; }
+
+.reject { background-color: #e53935; }
+.reject:hover { background-color: #c62828; }
+
+/* === Form Elements === */
+textarea {
+  width: 100%;
+  height: 60px;
+  resize: vertical;
+}
+
+select {
+  width: 100%;
+  margin-top: 8px;
+}
+
+button[type="submit"] {
+  margin-top: 8px;
+  background: #6a1b9a;
+  color: white;
+  padding: 6px 14px;
+  border: none;
+  border-radius: 5px;
+}
+
+/* Final calendar fixes */
+.calendar-container {
+    flex: 0 0 400px;   /* make the white box wider */
+    min-width: 400px;
+    padding: 20px;     /* consistent padding */
+    box-sizing: border-box; /* padding included in width */
+}
+
+/* calendar grid */
+.calendar-grid {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr); /* always 7 equal columns */
+    gap: 6px;
+    width: 100%;       /* stay inside white box */
+    box-sizing: border-box;
+    margin: 0;         /* no negative margins */
+}
+
+.calendar-grid > div {
+    aspect-ratio: 1 / 1; /* keeps perfect squares */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    border-radius: 8px;
+    background: #f4f4f4;
+    overflow: hidden;
+}
+
+/* === Mobile Responsive Fixes === */
+@media (max-width: 768px) {
+  .topbar nav {
+    flex-direction: column;
+    gap: 8px;
+  }
+
+  .sidebar {
+    position: relative;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 10px 0;
+  }
+
+  .sidebar h3 {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+
+  .sidebar a {
+    flex: 1 1 45%;
+    margin: 5px;
+    text-align: center;
+  }
+
+  .main {
+    margin-left: 0;
+    padding: 20px 10px;
+  }
+
+  .content-wrapper {
+    flex-direction: column;
+  }
+
+  .list, .calendar-container {
+    width: 100%;
+    margin: 0;
+  }
+
+  .card {
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .time-slot {
+    width: 100%;
+    text-align: center;
+    margin: 5px 0;
+  }
+}

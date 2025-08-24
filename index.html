@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+  <title>Manashanti</title>
+  <style>
+    /* === Base Styles === */
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #fff7eb;
+  color: #2d2d2d;
+  padding-top: 100px; /* for fixed navbar */
+}
+
+/* Navbar */
+nav {
+  position: fixed;
+  top: 0; left: 0;
+  width: 100%;
+  background-color: white;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  z-index: 999;
+}
+.nav-container {
+  max-width: 1200px; margin: 0 auto;
+  padding: 20px 40px; display: flex; justify-content: space-between; align-items: center;
+}
+.logo { display: flex; align-items: center; }
+.logo img { height: 50px; border-radius: 50%; margin-right: 10px; }
+.logo span { font-size: 1.5rem; font-weight: 700; color: green; }
+nav ul { list-style: none; display: flex; gap: 30px; margin: 0; padding: 0; align-items: center; }
+nav ul li a { text-decoration: none; color: #333; font-weight: 500; font-size: 1rem; transition: color 0.3s ease; }
+nav ul li a:hover { color: #f9a23b; }
+nav ul li button {
+  background: #ff7f00; border: none; padding: 8px 16px; font-size: 1rem;
+  border-radius: 6px; cursor: pointer; color: #fff; font-weight: bold; transition: background 0.3s ease;
+}
+nav ul li button:hover { background: #ff9a33; }
+
+/* Hero */
+.hero {
+  background: url('bgsadhu.png') no-repeat center center / cover;
+  padding: 180px 8% 120px; color: white;
+}
+.hero h1 { font-size: 3.5rem; font-weight: 900; max-width: 700px; line-height: 1.2; }
+.hero p { max-width: 500px; font-size: 1.2rem; margin-top: 15px; }
+.hero button {
+  background: #f9a23b; border: none; padding: 14px 35px; font-size: 1rem; border-radius: 6px;
+  cursor: pointer; color: #fff; font-weight: bold; margin-top: 25px; transition: all 0.3s ease;
+}
+.hero button:hover { background: #ffb84d; }
+
+/* Why Choose */
+.why-choose {
+  padding: 50px 8%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+}
+.why-card {
+  background: #fff3e0; padding: 20px; border-radius: 10px;
+  display: flex; align-items: center; gap: 15px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  cursor: pointer;
+}
+.why-card img { width: 50px; height: 50px; }
+.why-card:hover { transform: translateY(-5px); box-shadow: 0 5px 15px rgba(0,0,0,0.15); }
+
+/* FAQ */
+.faq-section { padding: 50px 8%; }
+.faq-section h2 { margin-bottom: 20px; }
+.faq { background: #fff3e0; margin-bottom: 15px; border-radius: 8px; overflow: hidden; }
+.faq button {
+  width: 100%; padding: 15px; background: none; border: none; text-align: left;
+  font-size: 1rem; font-weight: bold; cursor: pointer; color: #2d2d2d;
+}
+.faq button:hover { background: #ffd699; }
+.faq p { padding: 0 15px 15px; margin: 0; display: none; }
+.faq.open p { display: block; }
+
+/* Modal / Popup */
+body.modal-open { overflow: hidden; }
+.popup-overlay {
+  position: fixed; inset: 0;
+  background: rgba(0,0,0,0.6);
+  display: flex; justify-content: center; align-items: center;
+  z-index: 2000;
+  opacity: 0; visibility: hidden; pointer-events: none;
+  transition: opacity .2s ease;
+}
+.popup-overlay.show {
+  opacity: 1; visibility: visible; pointer-events: auto;
+}
+.popup-content {
+  background: #fff7eb;
+  padding: 22px 28px;
+  border-radius: 12px;
+  max-width: 420px; width: 92%;
+  text-align: center; position: relative;
+  transform: scale(.92); opacity: 0;
+  transition: transform .22s ease, opacity .22s ease;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+}
+.popup-overlay.show .popup-content {
+  transform: scale(1); opacity: 1;
+}
+.close-btn {
+  position: absolute; top: 10px; right: 14px;
+  font-size: 1.6rem; cursor: pointer; color: #ff7f00; font-weight: bold;
+  line-height: 1;
+}
+
+/* Images full width */
+img { max-width: 100%; height: auto; }
+
+/* Prevent horizontal scroll */
+body, html { overflow-x: hidden; }
+
+/* === Mobile Fixes === */
+@media (max-width: 768px) {
+  body { padding-top: 80px; }
+
+  /* Navbar */
+  .nav-container { flex-direction: column; padding: 15px 20px; gap: 15px; }
+  nav ul { flex-direction: column; gap: 12px; width: 100%; }
+  nav ul li button { width: 100%; }
+
+  /* Hero */
+  .hero { padding: 120px 5% 80px; text-align: center; }
+  .hero h1 { font-size: 2rem; max-width: 90%; margin: 0 auto; }
+  .hero p { font-size: 1rem; max-width: 90%; margin: 10px auto 20px; }
+  .hero button { width: 100%; max-width: 220px; padding: 12px 0; }
+
+  /* Why choose section */
+  .why-choose { padding: 30px 5%; grid-template-columns: 1fr; }
+  .why-card { justify-content: flex-start; }
+
+  /* FAQ section */
+  .faq-section { padding: 30px 5%; }
+}
+
+  </style>
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav>
+    <div class="nav-container">
+      <div class="logo">
+        <img src="vastu_logo.jpg" alt="Logo" />
+        <span>Vastu Consultancies</span>
+      </div>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="services.html">Our Services</a></li>
+        <li><a href="review.html">Reviews</a></li>
+        <li><a href="user_dash.html"><button>User Sign in</button></a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <h1>Invoke Cosmic Grace with Manashanti</h1>
+    <p>Book authentic Graha Puja rituals from the comfort of your home.</p>
+    <a href="user_dash.html"><button>Book Your Puja Now</button></a>
+  </section>
+
+  <!-- Why Choose -->
+  <section class="why-choose">
+    <div class="why-card" data-title="All Graha Pujas" data-desc="All nine Graha Pujas by experienced priests with proper vidhi and samagri.">
+      <img src="ic1.png" alt="All Graha Pujas"><span>All Graha Pujas</span>
+    </div>
+    <div class="why-card" data-title="Easy Booking" data-desc="Pick your date, slot, and language—confirmation in minutes.">
+      <img src="ic2.png" alt="Easy Booking"><span>Easy Booking</span>
+    </div>
+    <div class="why-card" data-title="Janam Kundali" data-desc="Get a precise Janam Kundali and personalized remedies based on your chart.">
+      <img src="ic3.png" alt="Janam Kundli"><span>Janam Kundali</span>
+    </div>
+    <div class="why-card" data-title="Vedic Authenticity" data-desc="Strict adherence to Vedic paddhati with transparency at every step.">
+      <img src="ic4.png" alt="Vedic Authenticity"><span>Vedic Authenticity</span>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section class="faq-section">
+    <h2>Frequently Asked Questions</h2>
+    <div class="faq">
+      <button>What is a Graha Puja?</button>
+      <p>It is a ritual to honor celestial bodies and invoke blessings.</p>
+    </div>
+    <div class="faq">
+      <button>How do I choose the right puja?</button>
+      <p>Consult with our experts or select based on your astrological needs.</p>
+    </div>
+    <div class="faq">
+      <button>Can I attend the puja online?</button>
+      <p>Yes, we offer live streaming for all pujas.</p>
+    </div>
+    <div class="faq">
+      <button>Who performs the rituals?</button>
+      <p>Experienced and certified Vedic priests perform the rituals.</p>
+    </div>
+  </section>
+
+  <!-- Popup / Modal -->
+  <div id="popup" class="popup-overlay" aria-hidden="true">
+    <div class="popup-content" role="dialog" aria-modal="true" aria-labelledby="popup-title">
+      <span class="close-btn" aria-label="Close">&times;</span>
+      <h2 id="popup-title"></h2>
+      <p id="popup-text"></p>
+    </div>
+  </div>
+
+  <!-- Scripts (after HTML so elements exist) -->
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      // FAQ toggle
+      document.querySelectorAll(".faq button").forEach(btn => {
+        btn.addEventListener("click", () => btn.parentElement.classList.toggle("open"));
+      });
+
+      // Modal elements
+      const popup = document.getElementById("popup");
+      const popupTitle = document.getElementById("popup-title");
+      const popupText = document.getElementById("popup-text");
+      const closeBtn = popup.querySelector(".close-btn");
+
+      function openModal(title, desc) {
+        popupTitle.textContent = title;
+        popupText.textContent = desc;
+        popup.classList.add("show");
+        document.body.classList.add("modal-open");
+        popup.setAttribute("aria-hidden", "false");
+      }
+
+      function closeModal() {
+        popup.classList.remove("show");
+        document.body.classList.remove("modal-open");
+        popup.setAttribute("aria-hidden", "true");
+      }
+
+      // Open on card click (uses data attributes if present, else span text)
+      document.querySelectorAll(".why-card").forEach(card => {
+        card.addEventListener("click", () => {
+          const title = card.dataset.title || card.querySelector("span")?.innerText || "Details";
+          const desc  = card.dataset.desc  || `More details about ${title}.`;
+          openModal(title, desc);
+        });
+      });
+
+      // Close interactions
+      closeBtn.addEventListener("click", closeModal);
+      popup.addEventListener("click", (e) => { if (e.target === popup) closeModal(); });
+      window.addEventListener("keydown", (e) => { if (e.key === "Escape" && popup.classList.contains("show")) closeModal(); });
+    });
+  </script>
+</body>
+</html>

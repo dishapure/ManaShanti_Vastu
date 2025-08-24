@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Firefox Push Notification</title>
+</head>
+<body>
+  <h2>🦊 Firefox Push Notification Test</h2>
+  <button id="notifyBtn">Enable Notification</button>
+
+  <script>
+    if ('serviceWorker' in navigator && 'Notification' in window) {
+      navigator.serviceWorker.register('sw.js')
+        .then(reg => {
+          console.log('✅ Service Worker registered');
+
+          document.getElementById('notifyBtn').addEventListener('click', async () => {
+            const permission = await Notification.requestPermission();
+            if (permission === 'granted') {
+              reg.active.postMessage('show-notification');
+            } else {
+              alert('Permission denied ❌');
+            }
+          });
+        })
+        .catch(error => {
+          console.error('Service Worker registration failed:', error);
+        });
+    } else {
+      alert('Browser doesn\'t support notifications');
+    }
+  </script>
+</body>
+</html>

@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Our Services</title>
+  <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css" />
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      AOS.init({ duration: 1000 });
+    });
+  </script>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background: #fafafa;
+      margin: 0;
+      padding: 0;
+      color: #333;
+    }
+
+    .navbar {
+      background: white;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 16px 32px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+    }
+
+    .logo-group {
+      display: flex;
+      align-items: center;
+    }
+
+    .logo {
+      height: 40px;
+      margin-right: 12px;
+      border-radius: 50%;
+    }
+
+    .company-name {
+      font-size: 1.4rem;
+      font-weight: bold;
+      color: #2E7D32;
+    }
+
+    .nav-links {
+      list-style: none;
+      display: flex;
+      gap: 20px;
+      margin: 0;
+    }
+
+    .nav-links li a {
+      text-decoration: none;
+      color: #333;
+      font-weight: 500;
+      padding: 8px 12px;
+      border-radius: 6px;
+      transition: background 0.3s, color 0.3s;
+    }
+
+    .nav-links li a:hover {
+      background: #2E7D32;
+      color: white;
+    }
+
+    .cta-button {
+      background-color: #FF6F00;
+      color: white !important;
+      border-radius: 6px;
+      padding: 8px 16px;
+      font-weight: bold;
+      transition: background 0.3s ease;
+    }
+
+    .cta-button:hover {
+      background-color: #e65c00;
+    }
+
+    .services-section {
+      padding: 40px 20px;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 30px;
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+
+    .service-card {
+      background: white;
+      border-radius: 15px;
+      padding: 20px;
+      box-shadow: 0 4px 14px rgba(138, 43, 226, 0.1);
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+      position: relative;
+    }
+
+    .service-card:hover {
+      transform: translateY(-8px);
+      box-shadow: 0 6px 20px rgba(185, 82, 27, 0.4);
+    }
+
+    .service-card h3 {
+      color: #d58a20;
+    }
+
+    .read-more {
+      margin-top: 10px;
+      display: none;
+      color: #444;
+    }
+
+    .show-more-btn {
+      margin-top: 12px;
+      background: #c78324;
+      color: white;
+      padding: 8px 16px;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      font-weight: 500;
+    }
+  </style>
+</head>
+<body>
+  <!-- Navbar -->
+  <header>
+    <div class="navbar">
+      <a href="index.html" class="logo-group" style="text-decoration: none; color: inherit;">
+        <img src="vastu_logo.jpg" alt="Vastu Logo" class="logo" />
+        <span class="company-name">Vastu Consultancies</span>
+      </a>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="services.html">Our Services</a></li>
+        <li><a href="review.html">Reviews</a></li>
+        <li><a href="user_dash.html" class="cta-button">User Sign in</a></li>
+      </ul>
+    </div>
+  </header>
+
+  <!-- Services Section -->
+  <div class="services-section">
+    <div class="service-card" data-aos="fade-up">
+      <h3>Horoscope Reading (Janam Kundli)</h3>
+      <p>Based on your date, time, and place of birth.</p>
+      <div class="read-more">Provides a deep insight into career, love life, health issues, and future marriage possibilities, helping you align decisions with cosmic timing.</div>
+      <button class="show-more-btn" onclick="toggleRead(this)">Read More</button>
+    </div>
+
+    <div class="service-card" data-aos="fade-up">
+      <h3>Matchmaking (Kundli Milan)</h3>
+      <p>For compatibility analysis in marriages or relationships.</p>
+      <div class="read-more">Detailed gunas matching, dosha analysis, and personalized compatibility scoring for long-term success and harmony in relationships.</div>
+      <button class="show-more-btn" onclick="toggleRead(this)">Read More</button>
+    </div>
+
+    <div class="service-card" data-aos="fade-up">
+      <h3>Muhurta Selection (Auspicious Timing)</h3>
+      <p>Find ideal dates for key life events.</p>
+      <div class="read-more">Be it marriage, housewarming (Griha Pravesh), or business launches, selecting the right muhurta boosts success and positivity.</div>
+      <button class="show-more-btn" onclick="toggleRead(this)">Read More</button>
+    </div>
+
+    <div class="service-card" data-aos="fade-up">
+      <h3>Transit Reading (Gochar Phal)</h3>
+      <p>Analysis of current planetary movements.</p>
+      <div class="read-more">Monthly and annual forecasts based on planetary transitions. Know what’s favorable and what challenges may arise in life events.</div>
+      <button class="show-more-btn" onclick="toggleRead(this)">Read More</button>
+    </div>
+
+    <div class="service-card" data-aos="fade-up">
+      <h3>Numerology Services</h3>
+      <p>Decode your name, birth number & destiny path.</p>
+      <div class="read-more">Receive name suggestions, business numbers, vehicle numbers and personal year predictions for overall balance and energy alignment.</div>
+      <button class="show-more-btn" onclick="toggleRead(this)">Read More</button>
+    </div>
+
+    <div class="service-card" data-aos="fade-up">
+      <h3>Home Vastu Analysis</h3>
+      <p>Optimize your living space’s energy.</p>
+      <div class="read-more">Get customized recommendations on room placement, object arrangement, and directional correction for wealth, health and peace.</div>
+      <button class="show-more-btn" onclick="toggleRead(this)">Read More</button>
+    </div>
+    
+    <div class="service-card" data-aos="fade-up">
+      <h3>Office/Business Vastu</h3>
+      <p>Design for success and harmony.</p>
+      <div class="read-more">Right positioning of cabins, desks, entrances & energy balancing can improve revenue, productivity, and decision-making.</div>
+      <button class="show-more-btn" onclick="toggleRead(this)">Read More</button>
+    </div>
+
+  <script>
+    function toggleRead(button) {
+      const content = button.previousElementSibling;
+      if (content.style.display === 'block') {
+        content.style.display = 'none';
+        button.textContent = 'Read More';
+      } else {
+        content.style.display = 'block';
+        button.textContent = 'Read Less';
+      }
+    }
+  </script>
+</body>
+</html>

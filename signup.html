@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>User Signup</title>
+  <link rel="stylesheet" href="style.css" />
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #f4f4f4;
+    }
+
+    header {
+      background-color: #ffffff;
+      border-bottom: 1px solid #ddd;
+      padding: 10px 20px;
+    }
+
+    .navbar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+
+    .logo-group {
+      display: flex;
+      align-items: center;
+    }
+
+    .logo {
+      height: 40px;
+      margin-right: 10px;
+      border-radius: 50%;
+    }
+
+    .company-name {
+      font-weight: bold;
+      font-size: 20px;
+      color: #333;
+    }
+
+    .nav-links {
+      list-style: none;
+      display: flex;
+      gap: 20px;
+    }
+
+    .nav-links li a {
+      text-decoration: none;
+      color: #333;
+      font-weight: 500;
+    }
+
+    .cta-button {
+      background-color: #00bcd4;
+      color: white;
+      padding: 8px 14px;
+      border-radius: 20px;
+    }
+
+    .container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 40px;
+      padding: 40px 20px;
+      flex-wrap: wrap;
+    }
+
+    .form-card {
+      background-color: white;
+      padding: 40px 30px;
+      border-radius: 12px;
+      box-shadow: 0 0 12px rgba(0,0,0,0.1);
+      max-width: 500px;
+      width: 100%;
+    }
+
+    .form-card h2 {
+      font-size: 24px;
+      margin-bottom: 10px;
+    }
+
+    .form-card p {
+      margin-bottom: 30px;
+      color: #555;
+    }
+
+    label {
+      margin-bottom: 5px;
+      font-size: 14px;
+      display: block;
+      color: #333;
+    }
+
+    input[type="text"],
+    input[type="email"],
+    input[type="tel"],
+    input[type="password"] {
+      width: 100%;
+      padding: 12px;
+      margin-bottom: 20px;
+      border: none;
+      border-bottom: 2px solid #00bcd4;
+      outline: none;
+      font-size: 16px;
+    }
+
+    .checkbox {
+      font-size: 14px;
+      margin-bottom: 20px;
+    }
+
+    .checkbox a {
+      color: #00bcd4;
+      text-decoration: none;
+    }
+
+    button {
+      background-color: #00bcd4;
+      border: none;
+      padding: 14px;
+      width: 100%;
+      color: white;
+      border-radius: 25px;
+      font-size: 16px;
+      cursor: pointer;
+    }
+
+    .img-card {
+      max-width: 400px;
+      width: 100%;
+    }
+
+    .img-card img {
+      width: 100%;
+      height: auto;
+      border-radius: 12px;
+    }
+
+    .login-link {
+      text-align: center;
+      margin-top: 15px;
+    }
+
+    .login-link a {
+      color: #00bcd4;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    @media screen and (max-width: 900px) {
+      .container {
+        flex-direction: column;
+        text-align: center;
+      }
+
+      .form-card {
+        margin-top: 20px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Navbar -->
+  <header>
+    <div class="navbar">
+   <a href="index.html" class="logo-group" style="text-decoration: none; color: inherit;">
+  <img src="vastu_logo.jpg" alt="Vastu Logo" class="logo" />
+  <span class="company-name">Vastu Consultancies</span>
+</a>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="#">Our Services</a></li>
+        <li><a href="review.html">Reviews</a></li>
+        <li><a href="user_dash.html" class="cta-button">User Sign in</a></li>
+        <li><a href="astro_dash.html" class="cta-button">Astrologer Login</a></li>
+      </ul>
+    </div>
+  </header>
+
+  <!-- Signup Section -->
+  <div class="container">
+    <!-- Image -->
+    <div class="img-card">
+      <img src="userphoto.png" alt="Signup Image" />
+    </div>
+
+    <!-- Form -->
+    <div class="form-card">
+      <h2>Sign Up</h2>
+      <p>Signup to our website and astrologer will soon catch up with you!</p>
+      <form action="signup_submit.php" method="POST">
+        <label for="fullname">Full Name</label>
+        <input type="text" id="fullname" name="fullname" placeholder="Jane Doe" required>
+
+        <label for="username">Username</label>
+        <input type="text" id="username" name="username" placeholder="janedoe123" required>
+
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" placeholder="janedoe@mail.com" required>
+
+        <label for="phone">Phone Number</label>
+        <input type="tel" id="phone" name="phone" placeholder="1234567890" required>
+
+        <label for="password">Password</label>
+        <input type="password" id="password" name="password" placeholder="Enter Password" required>
+
+        <div class="checkbox">
+          <input type="checkbox" id="terms" required>
+          <label for="terms">I agree to the <a href="#">Terms & Conditions</a></label>
+        </div>
+
+        <button type="submit">Sign Up</button>
+      </form>
+
+      <p class="login-link">
+        Already have an account? <a href="user_dash.html">Login</a>
+      </p>
+    </div>
+  </div>
+
+</body>
+</html>
